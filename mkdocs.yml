@@ -1,0 +1,32 @@
+site_name: 济南禾文智能科技有限公司
+theme:
+  # name: readthedocs
+  name: material
+  features:
+    - navigation.expand
+  palette:
+    primary: deep orange
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+# theme: dracula
+
+nav:
+  - 主页: index.md
+  - 脱机烧录器:
+      - EasyFlasher-META脱机烧录器:
+          - 产品简介: EasyFlasher-META/index.md
+          - 用户手册: EasyFlasher-META/user_manual.md
+      - EasyFlasher-COOL脱机烧录器: EasyFlasher-COOL/index.md
+      - EasyFlasher-MINI脱机烧录器: EasyFlasher-MINI/index.md
+  - DAPLink仿真器:
+      - HWLink CMSIS-DAP仿真器: HWLink/index.md
+      - AKLinkW CMSIS-DAP无线仿真器: HWLinkW/index.md
+  - DAPLink上位机:
+      - 软件介绍: DAPLinkUtility/index.md
+  - 其他:
+      - 硬件设置: other/hardware_settings.md
+      - Keil中使用DAPLink常用设置: other/daplink_keil_settings.md
+      - Keil中使用DAPLink常见问题: other/daplink_keil_FAQ.md
+      - DAPLink驱动安装: other/daplink_driver_install.md
+      - EasyFlasher脱机烧录配置软件: other/easyflasher_settings.md
