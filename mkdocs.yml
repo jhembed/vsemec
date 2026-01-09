@@ -20,6 +20,7 @@ nav:
           - 产品简介: EasyFlasher-META/index.md
           - 用户手册: EasyFlasher-META/user_manual.md
       - EasyFlasher-COOL脱机烧录器: EasyFlasher-COOL/index.md
+      - EasyFlasher-LITE脱机烧录器: EasyFlasher-LITE/index.md
       - EasyFlasher-MINI脱机烧录器: EasyFlasher-MINI/index.md
   - DAPLink仿真器:
       - HWLink调试器: HWLink/index.md

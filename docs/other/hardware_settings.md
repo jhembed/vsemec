@@ -5,6 +5,7 @@
 本说明适用于本店以下产品：
 
 - EasyFlasher-META脱机烧录器
+- EasyFlasher-COOL脱机烧录器
 - EasyFlasher-MINI脱机烧录器
 - EasyFlasher-LITE脱机烧录器
 - HWLink CMSIS-DAP LITE
