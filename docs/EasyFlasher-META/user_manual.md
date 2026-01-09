@@ -41,7 +41,7 @@
 
 ![](./assets/user_manual/EasyFlasher.png)
 
-见《[脱机烧录配置软件功能说明](../other/easyflasher_settings.md)》
+见《[脱机烧录配置软件功能说明](../EasyFlasher/index.md)》
 
 ## 脱机烧录
 

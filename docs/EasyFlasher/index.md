@@ -1,6 +1,12 @@
 
 # EasyFlasher脱机烧录配置软件
 
+### 软件下载
+
+- 蓝奏云网盘：[https://wwwq.lanzouu.com/b0kobqich](https://wwwq.lanzouu.com/b0kobqich)，提取码：5lxi
+
+- 百度云网盘：[https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234](https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234)，提取码: 1234
+
 ### 基本设置
 
 #### 程序列表
@@ -11,9 +17,9 @@
 
 大多数单片机如STM32、GD32、MM32等厂家单片机的FLASH起始地址为0x08000000，国产华大HC32、武汉芯源CW32等厂家单片机的FLASH起始地址为0x00000000。
 
-![](./assets/easyflasher/程序段列表.png)
+![](./assets/程序段列表.png)
 
-![](./assets/easyflasher/程序段地址.png)
+![](./assets/程序段地址.png)
 
 #### 连接模式
 
@@ -35,7 +41,7 @@
 4. 根据设置的上电延时时间进行延时
 5. 尝试连接芯片，规定的尝试次数内未连上则显示连接失败
 
-![](./assets/easyflasher/上电复位参数配置.png)
+![](./assets/上电复位参数配置.png)
 
 #### 复位方式
 
@@ -64,7 +70,7 @@
 - 烧录后：写入选项字节
     - 勾选后，在烧录完后自动写入用户配置的选项字节信息
   
-![](./assets/easyflasher/选项字节配置.png)
+![](./assets/选项字节配置.png)
 
 
 #### 自动烧录
@@ -100,7 +106,7 @@
 
 ### 脱机烧录
 
-![](./assets/easyflasher/脱机烧录配置.png)
+![](./assets/脱机烧录配置.png)
 
 脱机烧录器在使用脱机烧录时，需使用配置软件生成.AKF格式的脱机文件。生成脱机文件的具体步骤如下：
 
@@ -110,15 +116,15 @@
 4. 点击【生成脱机文件】按钮将.afk格式的脱机文件保存至电脑硬盘或直接保存至烧录器U盘内。
 5. 将烧录器切换为【USB模式】，烧录器显示界面如下图所示，切换后电脑上弹出U盘，将脱机文件复制到此U盘内即可。
 
-![](./assets/easyflasher/USB模式.png)
+![](./assets/USB模式.png)
 
 ### 滚码烧录
 
 支持8组滚码烧录，可在菜单栏->高级->滚码写入，进行启用。
 
-![](./assets/easyflasher/滚码烧录1.png)
+![](./assets/滚码烧录1.png)
 
-![](./assets/easyflasher/滚码烧录2.png)
+![](./assets/滚码烧录2.png)
 
 ### 选项字节
 
@@ -130,32 +136,32 @@
 
 > 注：若选项字节区域为灰色禁用状态，则该芯片的选项字节还未支持，请等待后续更新支持。
 
-![](./assets/easyflasher/选项字节配置.png)
+![](./assets/选项字节配置.png)
 
-![](./assets/easyflasher/选项字节配置详细.png)
+![](./assets/选项字节配置详细.png)
 
 ### 常用芯片
 
 通过添加常用芯片，在搜索下拉框中进行芯片型号的快速选择，方便使用。
 
-![](./assets/easyflasher/常用芯片1.png)
+![](./assets/常用芯片1.png)
 
-![](./assets/easyflasher/常用芯片2.png)
+![](./assets/常用芯片2.png)
 
-![](./assets/easyflasher/常用芯片3.png)
+![](./assets/常用芯片3.png)
 
 
 ### 固件合并工具
 
 软件内置固件合并工具，可以将多个程序段组成一个完整固件。常用于BOOT程序+APP程序进行合并的使用场景。
 
-![](./assets/easyflasher/固件合并工具.png)
+![](./assets/固件合并工具.png)
 
 ### HEX转BIN工具
 
 配置软件内置了hex格式固件转bin格式固件工具，方便用户按需使用。
 
-![](./assets/easyflasher/hex转bin工具.png)
+![](./assets/hex转bin工具.png)
 
 ### 固件升级
 
@@ -163,16 +169,16 @@
 
 升级过程中请勿断开USB连接，勿拔插电脑上的其他USB设备，以免影响烧录器的数据传输，耐心等待几分钟传输完成后，烧录器将自动更新重启。
 
-![](./assets/easyflasher/固件升级工具.png)
+![](./assets/固件升级工具.png)
 
 ### 软件更新
 
 您也可以依次点击软件内：菜单栏->帮助->检查更新，检查更新是否有更细。
 
-![](./assets/easyflasher/软件升级工具.png)
+![](./assets/软件升级工具.png)
 
 
 ### 硬件设置
 
-见《[硬件设置](./hardware_settings.md)》。
+见《[硬件设置](../other/hardware_settings.md)》。
 
