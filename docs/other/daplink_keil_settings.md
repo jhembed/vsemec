@@ -11,19 +11,31 @@
 
 ## 描述
 
+### 基本设置
+
 打开Keil工程，点击魔术棒工具，在Debug栏下选择CMSIS-DAP Debuger，如下图所示：
 
 ![](./assets/keil_daplink_settings_1.png)
 
 ![](./assets/keil扩展DAP设置.png)
 
+![](./assets/keil复位并运行.png)
+
+![](./assets/keil调试重要设置.png)
+
+### SWD模式配置
+
 ![](./assets/keil五线制接线设置.png)
 
 ![](./assets/keil四线制接线设置.png)
 
-![](./assets/keil复位并运行.png)
+### JTAG模式配置
 
-![](./assets/keil调试重要设置.png)
+JTAG方式最少要接7根线：TCK、TMS、TDI、TDO、RESET、VCC、GND
+
+![](./assets/keil_JTAG_配置.png)
+
+### 烧录完成效果
 
 点击按钮或快捷键F7编译工程，点击按钮或快捷键F8下载程序，下载完毕后出现以下日志即为下载成功：
 

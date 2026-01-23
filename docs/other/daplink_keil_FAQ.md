@@ -20,6 +20,16 @@
 
 可能造成此问题的原因：
 
-- 芯片进入低功耗模式，尝试将Connect改为`with-Pre reset`或`under reset`
-    - ![](./assets/connect_with_pre_reset.png)
+- 芯片进入低功耗模式，尝试将Connect改为`with-Pre reset`或`under reset`（注：部分芯片可能支持under-reset这个方式）
+    - ![](./assets/connect_with_pre_reset.png)、
 - 通讯链接不稳定，尝试降低烧录速度
+- 可能是芯片一直处于复位状态，检查硬件RESET的电平电压是否正常
+
+## JTAG模式`JTAG Device Chain Error`错误
+
+![](./assets/JTAG_Device_Chain_Error.png)
+
+可能造成此问题的原因：
+
+- 芯片内的程序把JTAG禁用了，尝试使用`with-Pre reset`或`under reset`进行连接
+- 目标板被意外切换为了SWD模式导致JTAG无法切换回来了，尝试将目标板断电并重新上电

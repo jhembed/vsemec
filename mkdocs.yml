@@ -13,8 +13,8 @@ theme:
 
 nav:
   - 主页:
-      - 主页: index.md
-      - 声明: disclaimer.md
+      - 公司简介: index.md
+      - 免责声明: disclaimer.md
   - EasyFlasher脱机烧录器:
       - EasyFlasher-META脱机烧录器:
           - 产品简介: EasyFlasher-META/index.md
