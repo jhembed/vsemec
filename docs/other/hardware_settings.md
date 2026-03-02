@@ -34,6 +34,12 @@
 
 ### 电压调节
 
-| 产品/功能 | EasyFlasher-META | EasyFlasher-MINI | EasyFlasher-LITE | EasyFlasher-MINI | HWLink CMSIS-DAP LITE | HWLink CMSIS-DAP META |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 电压调节 | 0/1.8/3.3/5V  | 0/1.8/3.3/5V | 0/1.8/3.3/5V | 0/1.8/3.3/5V  | 0/3.3/5V | 0/3.3/5V | 
+| 产品型号                  | 电平电压调节       | 备注  |
+|:---------------------:|:------------:|:---:|
+| EasyFlasher-META      | 0/1.8/3.3/5V |     |
+| EasyFlasher-COOL      | 0/1.8/3.3/5V |     |
+| EasyFlasher-LITE      | 0/1.8/3.3/5V |     |
+| EasyFlasher-MINI      | 0/1.8/3.3/5V |     |
+| HWLink CMSIS-DAP LITE | 0/3.3/5V     |     |
+| HWLink CMSIS-DAP META | 0/3.3/5V     |     |
+| AK-LinkW CMSIS-DAP    | 不可调(3.3V)    |     |
