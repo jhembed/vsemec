@@ -5,7 +5,7 @@ theme:
   features:
     - navigation.expand
   palette:
-    primary: deep orange
+    # primary: deep orange
   logo: assets/logo.png
   favicon: assets/favicon.ico
 

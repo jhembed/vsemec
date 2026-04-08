@@ -9,25 +9,11 @@
 ## 联系方式
 
 - 官方网站：[www.vsemec.com](https://www.vsemec.com)
-
 - 联系电话：0531-82630257
-
-- 产品咨询：董经理，18653154353(同V) 
-
-- 技术支持：刘工，jhembed(微信) 
-
-
 
 ## 淘宝店铺
 
-- **行一工作室**
-    - 点击直达：[https://shop293219311.taobao.com](https://shop293219311.taobao.com)
-    - 打开手机淘宝APP扫一扫：
-    - ![](./assets/行一工作室二维码.png)
-- **禾文智能科技企业店**
-    - 点击直达：[https://shop346468893.taobao.com](https://shop346468893.taobao.com)
-    - 打开手机淘宝APP扫一扫：
-    - ![](./assets/禾文智能科技二维码.png)
-
-  
-
+| 行一工作室 | 禾文智能科技 |
+| :--------: | :--------: |
+| [https://shop293219311.taobao.com](https://shop293219311.taobao.com) | [https://shop346468893.taobao.com](https://shop346468893.taobao.com) |
+| ![](./assets/行一工作室二维码.png) | ![](./assets/禾文智能科技二维码.png) |

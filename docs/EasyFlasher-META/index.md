@@ -4,12 +4,12 @@
 
 ## 购买链接
 
-- 链接1点击直达：[https://item.taobao.com/item.htm?id=899498306572](https://item.taobao.com/item.htm?id=899498306572)
-- 淘宝扫一扫：
-- ![](./assets/行一_EasyFlasher-META商品链接二维码.png)
-- 链接2点击直达：[https://item.taobao.com/item.htm?id=909368817574](https://item.taobao.com/item.htm?id=909368817574)
-- 淘宝扫一扫：
-- ![](./assets/禾文_EasyFlasher-META商品链接二维码.png)
+点击以下链接，或手机淘宝APP扫一扫二维码。
+
+| 行一工作室 | 禾文智能科技 |
+| :--------: | :--------: |
+| [点击购买](https://item.taobao.com/item.htm?id=899498306572) | [点击购买](https://item.taobao.com/item.htm?id=909368817574) |
+| ![](./assets/行一_EasyFlasher-META商品链接二维码.png) | ![](./assets/禾文_EasyFlasher-META商品链接二维码.png) |
 
 ## 支持型号
 
@@ -20,6 +20,10 @@
 - 配套上位机软件：
     - 蓝奏云网盘：[https://wwwq.lanzouu.com/b0kobqich](https://wwwq.lanzouu.com/b0kobqich)，提取码：5lxi
     - 百度云网盘：[https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234](https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234)，提取码: 1234
+
+
+![](./assets/软件说明.png)
+
 
 ## 文档修订历史
 
@@ -116,15 +120,11 @@
 
 ## 在线烧写
 
-将烧录器切换至【USB模式】，显示界面如下图所示。
-
-![](./assets/USB模式.png)
-
 > 注意：当使用【**外部输入**】模式时，外部供电电压支持3.3~5V，请勿超压供电！
 
-进入USB模式后，电脑显示一个U盘，并提供DAPLink调试器功能。
+将烧录器切换至【USB模式】，并提供DAPLink调试器功能。
 
-可搭配我司上位机软件DAPLinkUtility对目标芯片在线读取、烧录、配置选项字节，解锁芯片等。
+可搭配我司上位机软件**DAPLinkUtility**对目标芯片在线读取、烧录、配置选项字节，解锁芯片等。
 
 DAPLinkUtility使用说明，见《[DAPLink上位机](../DAPLinkUtility/index.md)》。
 
@@ -136,7 +136,7 @@ DAPLinkUtility使用说明，见《[DAPLink上位机](../DAPLinkUtility/index.md
 
 ### 驱动安装
 
-见《[DAPLink驱动安装](../other/daplink_driver_install.md)》。
+见《[驱动安装](../other/daplink_driver_install.md)》。
 
 ### 常见问题
 

@@ -33,7 +33,7 @@
 
 ## 驱动安装
 
-见《[DAPLink驱动安装](../other/daplink_driver_install.md)》。
+见《[驱动安装](../other/daplink_driver_install.md)》。
 
 ## Keil配置
 
