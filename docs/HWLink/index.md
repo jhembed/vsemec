@@ -4,7 +4,12 @@
 
 ## 购买链接
 
-**新品：暂未上市！敬请期待！**
+**点击以下链接，或手机淘宝扫描下方二维码。**
+
+| 行一工作室 | 禾文智能科技 |
+| :--------: | :--------: |
+| [https://item.taobao.com/item.htm?id=1044759725936](https://item.taobao.com/item.htm?id=1044759725936) | [https://item.taobao.com/item.htm?id=1043049619446](https://item.taobao.com/item.htm?id=1043049619446) |
+| ![淘宝APP扫码](./assets/行一商品链接二维码.png) | ![淘宝APP扫码](./assets/禾文商品链接二维码.png) |
 
 ## 产品简介
 
@@ -13,10 +18,12 @@
 | 烧录速度 |  5M   | 50M  |
 | USB通讯速度 |  普速(USB2.0 12M)   | 高速(USB2.0 480M)  |
 | 电压调节 |  0/3.3/5V   | 0/3.3/5V  |
-| 烧录接口 |  SWD/JTAG   | SWD/JTAG  |
-| CDC虚拟串口 |  支持   | 支持  |
+| 支持接口 |  SWD/JTAG/CDC/UART   | SWD/JTAG/CDC/UART  |
 | 通讯方式 |  HID+WINUSB   | HID+WINUSB  |
 | 反向供电 |  不支持   | 不支持  |
+
+ 
+> **💡 META版本的实际物理速度 = 设置速度 X 5。例如在使用Keil时，设置速度为1M，实际物理速度为5M，最高支持50M。**
 
 ## 配套上位机
 

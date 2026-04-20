@@ -4,11 +4,11 @@
 
 ## 购买链接
 
-点击以下链接，或手机淘宝APP扫一扫二维码。
+**点击以下链接，或手机淘宝APP扫一扫二维码。**
 
 | 行一工作室 | 禾文智能科技 |
 | :--------: | :--------: |
-| [点击购买](https://item.taobao.com/item.htm?id=899498306572) | [点击购买](https://item.taobao.com/item.htm?id=909368817574) |
+| [https://item.taobao.com/item.htm?id=899498306572](https://item.taobao.com/item.htm?id=899498306572) | [https://item.taobao.com/item.htm?id=909368817574](https://item.taobao.com/item.htm?id=909368817574) |
 | ![](./assets/行一_EasyFlasher-META商品链接二维码.png) | ![](./assets/禾文_EasyFlasher-META商品链接二维码.png) |
 
 ## 支持型号
