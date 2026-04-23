@@ -34,6 +34,18 @@
 
 ![](./assets/DAPLinkUtility.png)
 
+## 固件升级
+
+1. 将RESET与GND用杜邦线短接
+2. 上电，此时电脑端枚举出一个0.99G的模拟U盘
+    ![](./assets/模拟U盘.png)
+3. 将`.ufw`格式的升级文件拖入虚拟U盘内
+4. 等待升级完成
+5. 取消RESET与GND之间的短接
+6. 升级完成
+
+HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/EasyFlasherUpdater/raw/main/HW-Link_LITE_v1.0.0.ufw)
+
 ## 硬件配置
 
 见《[硬件设置](../other/hardware_settings.md)》。

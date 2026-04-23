@@ -23,7 +23,7 @@ nav:
   - DAPLink仿真器:
       - HWLink调试器: HWLink/index.md
       - AKLinkW无线调试器: HWLinkW/index.md
-  - DAPLink上位机: DAPLinkUtility/index.md
+  - DAPLinkUtility上位机: DAPLinkUtility/index.md
   - EasyFlasher脱机烧录配置软件: EasyFlasher/index.md
   - 其他:
       - 硬件设置: other/hardware_settings.md

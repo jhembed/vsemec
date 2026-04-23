@@ -2,14 +2,16 @@
 
 ## 说明
 
-本说明适用于本店以下产品：
+**电压调节功能硬件支持情况如下表：**
 
-- EasyFlasher-META脱机烧录器
-- EasyFlasher-COOL脱机烧录器
-- EasyFlasher-MINI脱机烧录器
-- EasyFlasher-LITE脱机烧录器
-- HWLink CMSIS-DAP LITE
-- HWLink CMSIS-DAP META
+|      产品名称      |   电平电压调节   | 备注  |
+| :----------------: | :--------------: | :---: |
+|  EasyFlasher-META  |   0/1.8/3.3/5V   |       |
+|  EasyFlasher-COOL  |   0/1.8/3.3/5V   |       |
+|  EasyFlasher-LITE  |   0/1.8/3.3/5V   |       |
+|  EasyFlasher-MINI  |   0/1.8/3.3/5V   |       |
+|      HW-Link       |     0/3.3/5V     |       |
+| AK-LinkW CMSIS-DAP | 不可调(固定3.3V) |       |
 
 ## 描述
 
@@ -29,17 +31,7 @@
     - 软件复位：使用Keil烧录完程序后，自动执行一次软件复位使程序运行，无需接硬件RESET线。
     - 硬件复位：使用Keil烧录完程序后，自动执行一次硬件复位使程序运行。
     - 断电复位：使用Keil烧录完程序后，自动执行一次断上电复位，断上电延时时间由高级选项（断电复位）的延时时间决定。
+    - 禁用复位：ARM官方原版DAPLink固件默认行为。（*注：使用金用复位时，当使用Keil下载完程序后，程序并不会运行，需要手动复位或者给板子重新上电。*）
 - **接口电平**
     - 用于调节电平电压
 
-### 电压调节
-
-| 产品型号                  | 电平电压调节       | 备注  |
-|:---------------------:|:------------:|:---:|
-| EasyFlasher-META      | 0/1.8/3.3/5V |     |
-| EasyFlasher-COOL      | 0/1.8/3.3/5V |     |
-| EasyFlasher-LITE      | 0/1.8/3.3/5V |     |
-| EasyFlasher-MINI      | 0/1.8/3.3/5V |     |
-| HWLink CMSIS-DAP LITE | 0/3.3/5V     |     |
-| HWLink CMSIS-DAP META | 0/3.3/5V     |     |
-| AK-LinkW CMSIS-DAP    | 不可调(3.3V)    |     |
