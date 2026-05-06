@@ -5,7 +5,7 @@
 
 - 蓝奏云网盘：[https://wwwq.lanzouu.com/b0kobqich](https://wwwq.lanzouu.com/b0kobqich)，提取码：5lxi
 
-- 百度云网盘：[https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234](https://pan.baidu.com/s/1FE3pROvqj5ic1aEpv0OvqA?pwd=1234)，提取码: 1234
+- 百度云网盘：[https://pan.baidu.com/s/5isepgphcrZYN0uN-tT0kIg](https://pan.baidu.com/s/5isepgphcrZYN0uN-tT0kIg)
 
 ### 基本设置
 
