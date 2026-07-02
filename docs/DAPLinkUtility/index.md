@@ -1,26 +1,56 @@
 # DAPLink上位机
 
+![](./assets/DAPLinkUtility.png)
+
+## 注意事项
+
 > **交流反馈QQ群：832486982**
 
-![](./assets/DAPLinkUtility.png)
+- 本软件支持的型号，本店硬件均支持**脱机烧录**
+- V0.0.24版本是最后一版支持第三方DAPLink硬件
+- V1.0.0版本之后的版本**只能使用本店硬件**
+ 
+## 重要通知
+
+**各位小伙伴，大家好！**
+
+DAPLinkUtility 即将迎来重要的里程碑——从 V0.0.X 正式迈向 V1.X.X 时代。
+
+**V0.0.24 将作为 V0 系列的收官之作，后续不再进行更新与维护。（PS：有时间还会优化BUG，但版本不在变更。）**
+
+一路走来，我们深知烧录工具的开发与维护需要投入巨大的精力。为了让项目能够健康、长久地发展，仅靠“为爱发电”已难以支撑日益增长的研发成本。因此，出于可持续运营与专业化的考量，**一个月后 V0.0.X 版本将彻底关闭免费使用通道（后续还会不定期开放）**，此改变是由于众多第三方DAPLink使用者咨询使用问题，但不是我们的硬件，**并且出售该硬件的店铺内还未标明软件出处，在V0版本正常维护期间，我们承担了其他店铺的售后问题，造成客服售后压力巨大！**
+
+**自 V1.0.0 起，软件将调整：仅支持配套官方硬件。**
+
+这一改变是为了确保软硬件深度适配，从而为大家提供更稳定、更高效的使用体验。
+
+与此同时，V1 版本将全面解锁更多专业级功能，包括：
+- 🔧 **自定义 FLM 烧录算法：** 灵活支持各类非标 Flash 及外置存储芯片
+- ✨ **RTT 控制台：** 让Segger RTT也能用上shell交互式控制台
+- 📊 **JScope 功能：** 波形可视化分析
+- 🏭 **量产烧录：** 支持单路/多路并行烧录，大幅提升生产效率
+
+感谢大家长期以来对 DAPLinkUtility 的支持与包容。新的征程，期待与您继续同行！
+
+2026年7月1日
+
+## 软件下载
+
+- 百度云网盘：[https://pan.baidu.com/s/5isepgphcrZYN0uN-tT0kIg](https://pan.baidu.com/s/5isepgphcrZYN0uN-tT0kIg)
 
 ## 软件介绍
 
+**DAPLinkUtility** 是一款面向嵌入式单片机开发者的**通用型DAPLink调试器上位机软件**。旨在为项目开发、调试及量产阶段提供高效、便捷的在线读写与脱机烧录解决方案。
 
+本软件采用底层协议驱动方式，并非打包了pyocd/openpcd，因此通用性极强！
 
-> **1. 上位机支持的型号，本店所有脱机烧录器均支持脱机烧录！**
-> 
-> **2. 电压调节、断上电复位、选项字节等功能，需搭配本店硬件使用！**
+软件采用解析Keil Pack包中FLM算法文件的机制，理论上只要是keil能够支持的芯片，本软件就能支持！
 
-**DAPLinkUtility**是一款通用DAPLink调试器上位机，用于嵌入式单片机开发者在项目开发调试阶段，在线读写MCU固件使用。支持自由读取、支持选项字节可视化配置。
+目前已适配50+芯片厂商，涵盖STM32、GD32、恩智浦S32K等主流及车规级MCU，并持续更新中。
 
-软件功能沿用Keil的操作习惯，包括：烧录速度、连接方式、复位方式、一键烧录(F8)、烧录设置等。
+功能上沿用了Keil的操作习惯，包括：烧录速度、连接方式、复位方式、一键烧录(F8)、烧录设置等。
 
 ![](./assets/软件功能介绍.png)
-
-## 支持芯片
-
-支持30+芯片厂商的读取烧录支持，本软件采用的解析pack包中的FLM算法文件方式实现，所以理论上只要是keil能够烧录，本软件就可以读取烧录。目前一直在不断更新中。
 
 ## 选项字节
 
@@ -38,6 +68,10 @@
 
 ![常用芯片](./assets/常用芯片.png) 
 
+### 烧录设置
+
+![烧录设置](./assets/烧录设置.png)
+
 ### 连接方式和复位方式
 
 arm和keil官方介绍：[https://developer.arm.com/documentation/101451/0100/Configure-Debugger-Driver/Configure-for-Debugging/Debug?lang=en](https://developer.arm.com/documentation/101451/0100/Configure-Debugger-Driver/Configure-for-Debugging/Debug?lang=en)
@@ -45,9 +79,9 @@ arm和keil官方介绍：[https://developer.arm.com/documentation/101451/0100/Co
 
 #### 连接方式
 
-![连接方式](./assets/连接方式.png) 
+> **此功能对应KEIL中的Connect选项**
 
-此功能对应KEIL中的Connect选项：
+![连接方式](./assets/连接方式.png) 
 
 ![keil连接方式](./assets/keil连接方式.png) 
 
@@ -79,9 +113,9 @@ arm和keil官方介绍：[https://developer.arm.com/documentation/101451/0100/Co
 
 #### 复位方式
 
-![复位方式](./assets/复位方式.png) 
+> **此功能对应KEIL中的Reset选项**
 
-此功能对应KEIL中的Reset选项：
+![复位方式](./assets/复位方式.png) 
 
 ![keil复位方式](./assets/keil复位方式.png) 
 

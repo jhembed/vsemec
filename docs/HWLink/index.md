@@ -1,6 +1,6 @@
 # HWLink CMSIS-DAP 仿真器
 
-![](./assets/白底图.png)
+![](./assets/HW-Link_META_白底图.png)
 
 ## 购买链接
 
@@ -25,16 +25,13 @@
  
 > **💡 META版本的实际物理速度 = 设置速度 X 5。例如在使用Keil时，设置速度为1M，实际物理速度为5M，最高支持50M。**
 
-## 配套上位机
-
-- 配套在线读写烧录软件，国产芯片全搞定！
-- 外部输入参考电压/3.3V/5V电压可调！
-
-当设置为**外部输入**时，电平电压根据目标板的参考电压自动调整为3.3V或5V。
-
-![](./assets/DAPLinkUtility.png)
-
 ## 固件升级
+
+HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/updater/raw/main/HW-Link_LITE_v1.0.0.ufw)
+
+HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/updater/raw/main/HW-Link_META_v1.0.0.ufw)
+
+### 方式1
 
 1. 将RESET与GND用杜邦线短接
 2. 上电，此时电脑端枚举出一个0.99G的模拟U盘
@@ -44,11 +41,18 @@
 5. 取消RESET与GND之间的短接
 6. 升级完成
 
-HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/EasyFlasherUpdater/raw/main/HW-Link_LITE_v1.0.0.ufw)
+### 方式2
+
+1. 打开DAPlinkUtility上位机软件
+2. 帮助->固件升级
+3. 开始升级，等待升级结束自动重启
+4. 升级完成
 
 ## 硬件配置
 
-见《[硬件设置](../other/hardware_settings.md)》。
+- 外部输入参考电压/3.3V/5V电压可调！
+- 当设置为**外部输入**时，电平电压根据目标板的参考电压自动调整为3.3V或5V。
+- 更过内容，见《[硬件设置](../other/hardware_settings.md)》。
 
 ## 驱动安装
 
