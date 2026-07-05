@@ -27,9 +27,9 @@
 
 ## 固件升级
 
-HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/updater/raw/main/HW-Link_LITE_v1.0.0.ufw)
+HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_LITE_v1.0.0.ufw)
 
-HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://gitee.com/jhembed/updater/raw/main/HW-Link_META_v1.0.0.ufw)
+HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_META_v1.0.0.ufw)
 
 ### 方式1
 
