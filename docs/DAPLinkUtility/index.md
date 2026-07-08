@@ -1,6 +1,6 @@
 # DAPLink上位机
 
-![](./assets/DAPLinkUtility.png)
+![](./assets/主界面.png)
 
 ## 注意事项
 

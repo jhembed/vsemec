@@ -21,12 +21,12 @@ nav:
       - EasyFlasher-LITE脱机烧录器: EasyFlasher-LITE/index.md
       - EasyFlasher-MINI脱机烧录器: EasyFlasher-MINI/index.md
   - DAPLink仿真器:
-      - HWLink调试器: HWLink/index.md
+      - HWLink超高速调试器: HWLink/index.md
       - AKLinkW无线调试器: HWLinkW/index.md
   - DAPLink上位机: DAPLinkUtility/index.md
   - EasyFlasher脱机烧录配置软件: EasyFlasher/index.md
   - 其他:
       - 硬件设置: other/hardware_settings.md
-      - Keil中使用DAPLink常用设置: other/daplink_keil_settings.md
-      - Keil中使用DAPLink常见问题: other/daplink_keil_FAQ.md
+      - Keil中使用DAPLink常用设置: other/daplink_settings.md
+      - Keil中使用DAPLink常见问题: other/daplink_faq.md
       - DAPLink驱动安装: other/daplink_driver_install.md

@@ -132,7 +132,7 @@ DAPLinkUtility使用说明，见《[DAPLink上位机](../DAPLinkUtility/index.md
 
 ### Keil配置
 
-见《[Keil中使用DAPLink常用设置](../other/daplink_keil_settings.md)》。
+见《[Keil中使用DAPLink常用设置](../other/daplink_settings.md)》。
 
 ### 驱动安装
 
@@ -140,7 +140,7 @@ DAPLinkUtility使用说明，见《[DAPLink上位机](../DAPLinkUtility/index.md
 
 ### 常见问题
 
-见《[Keil中使用DAPLink常见问题](../other/daplink_keil_FAQ.md)》。
+见《[Keil中使用DAPLink常见问题](../other/daplink_faq.md)》。
 
 ## 硬件设置（个性化功能）
 

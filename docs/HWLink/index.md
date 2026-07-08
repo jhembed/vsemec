@@ -15,12 +15,12 @@
 
 | 支持功能 | LITE版本 | META版 |
 | :--------: | :------: | ------ |
+|  |  ![](./assets/HW-Link_LITE_白底图.png)   | ![](./assets/HW-Link_META_白底图.png)  |
 | 烧录速度 |  5M   | 50M  |
 | USB通讯速度 |  普速(USB2.0 12M)   | 高速(USB2.0 480M)  |
-| 电压调节 |  0/3.3/5V   | 0/3.3/5V  |
+| （对外供电）电压调节 |  0/3.3/5V   | 0/3.3/5V  |
 | 支持接口 |  SWD/JTAG/CDC/UART   | SWD/JTAG/CDC/UART  |
 | 通讯方式 |  HID+WINUSB   | HID+WINUSB  |
-| 反向供电 |  不支持   | 不支持  |
 
  
 > **💡 META版本的实际物理速度 = 设置速度 X 5。例如在使用Keil时，设置速度为1M，实际物理速度为5M，最高支持50M。**
@@ -29,9 +29,9 @@
 
 HW-Link_LITE升级文件下载：[点击此处下载（v1.0.0）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_LITE_v1.0.0.ufw)
 
-HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_META_v1.0.0.ufw)
+HW-Link_META升级文件下载：[点击此处下载（v1.0.1）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_META_v1.0.1.ufw)
 
-### 方式1
+**升级步骤：**
 
 1. 将RESET与GND用杜邦线短接
 2. 上电，此时电脑端枚举出一个0.99G的模拟U盘
@@ -40,13 +40,6 @@ HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://raw.gi
 4. 等待升级完成
 5. 取消RESET与GND之间的短接
 6. 升级完成
-
-### 方式2
-
-1. 打开DAPlinkUtility上位机软件
-2. 帮助->固件升级
-3. 开始升级，等待升级结束自动重启
-4. 升级完成
 
 ## 硬件配置
 
@@ -60,8 +53,8 @@ HW-Link_META升级文件下载：[点击此处下载（v1.0.0）](https://raw.gi
 
 ## Keil配置
 
-见《[Keil中使用DAPLink常用设置](../other/daplink_keil_settings.md)》。
+见《[Keil中使用DAPLink常用设置](../other/daplink_settings.md)》。
 
 ## 常见问题
 
-见《[Keil中使用DAPLink常见问题](../other/daplink_keil_FAQ.md)》。
+见《[Keil中使用DAPLink常见问题](../other/daplink_faq.md)》。
