@@ -23,7 +23,7 @@
 | 通讯方式 |  HID+WINUSB   | HID+WINUSB  |
 
  
-> **💡 META版本的实际物理速度 = 设置速度 X 5。例如在使用Keil时，设置速度为1M，实际物理速度为5M，最高支持50M。
+>  💡  **META版本的实际物理速度 = 设置速度 X 5。例如在使用Keil时，设置速度为1M，实际物理速度为5M，最高支持50M。**
 
 HW-Link_LITE升级文件下载：[点击此处下载（v1.0.1）](https://raw.giteeusercontent.com/jhembed/updater/raw/main/HW-Link_LITE_v1.0.1.ufw)
 
